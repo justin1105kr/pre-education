@@ -7,3 +7,11 @@
 <출력>
 짝수입니다.
 """
+integer=int(input('정수를 입력하세요: '))
+
+if integer%2==0:
+    print('짝수입니다.')
+elif integer%2!=0:
+    print('홀수입니다.')
+else:
+    print('정확히 입력하세요.') #문자인 경우 에러가 뜨기 때문에 문자처리 코드 추가 필요

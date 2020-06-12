@@ -13,3 +13,13 @@
 ★★★★★
 ★★★★★
  """
+
+row=int(input('가로의 숫자를 입력하시오 : ')) #int를 왜 써줘야 하는지? input된 숫자를 정수로 인식을 못함.
+col=int(input('세로의 숫자를 입력하시오 : '))
+print('가로:',row,'세로:',col,'의 사각형을 만듭니다.')
+
+for i in range(col):
+    for z in range(row):
+        print('★',end="")
+    print()
+

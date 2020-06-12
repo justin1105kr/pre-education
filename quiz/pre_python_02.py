@@ -10,3 +10,17 @@
 <출력>
 150
 """
+x1=int(input('첫번째 수를 입력하세요: '))
+x2=int(input('두번째 수를 입력하세요: '))
+cal=(input('연산기호를 입력하세요: '))
+print('결과:',end="")
+if cal=="+":
+    print(x1+x2)
+elif cal=="-":
+    print(x1-x2)
+elif cal == "*":
+    print(x1*x2)
+elif cal == "/":
+    print(x1/x2)
+else:
+    print('다시 입력하세요.')

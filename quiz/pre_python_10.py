@@ -9,3 +9,10 @@ print(factorial(5))
 <출력>
 120
   """
+a=int(input("입력:"))
+def factorial(a):
+    r=1
+    for i in range(1,a+1):
+        r*=i #*=를 사용하지 않고 만들 수는 없나?
+    return r
+print(factorial(a))
