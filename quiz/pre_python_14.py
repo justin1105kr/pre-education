@@ -19,3 +19,5 @@ HELLO
 입력 형식이 잘못되었습니다.
 
 """
+a=input('입력:')
+print(a.upper())
